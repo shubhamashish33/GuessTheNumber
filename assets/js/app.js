@@ -14,7 +14,7 @@ function start() {
 function play() {
   var user_guess = document.getElementById("guess").value;
   if (user_guess < 1 || user_guess > 100) {
-    windows.alert("Please enter a number between 1 and 100.");
+    alert("Please enter a number between 1 and 100.");
   } else {
     guessed_nums.push(user_guess);
     no_of_guesses += 1;
@@ -32,7 +32,7 @@ function play() {
       msg2.textContent = "The number was: " + answer;
       msg3.textContent = "You guessed it in " + no_of_guesses + " guesses";
       document.getElementById("my_btn").disabled = true;
-      windows.alert("You Winn!!🎉");
+      alert("You Winn!!🎉");
     }
   }
 }
