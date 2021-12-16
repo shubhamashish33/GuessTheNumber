@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <h1>
             Welcome to The GuessTheNumber😊
         </h1>
@@ -18,7 +18,7 @@
             To <b>Win</b> the game you have to guess it right or else you will <b>loose</b> the game.
         </p>
 
-        <button>
+        <button onclick="start()" id="start">
             Start
         </button>
 
@@ -26,6 +26,17 @@
             This game is made by Shubham Ashish ⭐<br>
             ©️ 2021 | <a href="http://">Follow Me</a>
         </footer>
+    </div>
+    <div class="gameview" id="gameview">
+        <h3>
+            Can you guess that number with the hint below. <br>
+            It ranges from 1 to 100.
+        </h3>
+        <input type="number" placeholder="Num" id="guess"><br>
+        <button onclick="play()" id="my_btn">GUESS</button>
+        <p id="message1">No. Of Guesses: 0</p>
+        <p id="message2">Guessed Numbers are: None</p>
+        <p id="message3"></p>
     </div>
 
 
