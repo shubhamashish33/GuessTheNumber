@@ -56,4 +56,9 @@ function play() {
       alert("You Winn!!🎉");
     }
   }
+
+  if (no_of_guesses >= 10) {
+    alert("You loose!! Better Luck Next Time ☹️");
+    window.location.reload();
+  }
 }
