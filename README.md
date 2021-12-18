@@ -4,7 +4,8 @@
  [Visit Here 🚀](https://shubhamashish33.github.io/GuessTheNumber/)
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/78084828/146361651-0fa92553-bbb4-4f23-9f7b-6e25af9d26d7.png)
+![image](https://user-images.githubusercontent.com/78084828/146647117-a6161f85-31dd-453e-8987-ab1f0681cb85.png)
+
 
 ## Tech Used
 - HTML
