@@ -19,15 +19,36 @@ function play() {
     guessed_nums.push(user_guess);
     no_of_guesses += 1;
 
-    if (user_guess < answer) {
-      msg1.textContent = "Your guess is too low.";
-      msg2.textContent = "No. of guesses: " + no_of_guesses;
-      msg3.textContent = "Guessed numbers are: " + guessed_nums;
+    if (answer > user_guess) {
+      if (answer - user_guess > 20) {
+        msg1.textContent = "Your guess is too low.";
+        msg2.textContent = "No. of guesses: " + no_of_guesses;
+        msg3.textContent = "Guessed numbers are: " + guessed_nums;
+      } else if (answer - user_guess < 20) {
+        msg1.textContent = "Your guess is low.";
+        msg2.textContent = "No. of guesses: " + no_of_guesses;
+        msg3.textContent = "Guessed numbers are: " + guessed_nums;
+      }
     } else if (user_guess > answer) {
-      msg1.textContent = "Your guess is too high.";
-      msg2.textContent = "No. of guesses: " + no_of_guesses;
-      msg3.textContent = "Guessed numbers are: " + guessed_nums;
-    } else if (user_guess == answer) {
+      if (user_guess - answer > 20) {
+        msg1.textContent = "Your guess is too high.";
+        msg2.textContent = "No. of guesses: " + no_of_guesses;
+        msg3.textContent = "Guessed numbers are: " + guessed_nums;
+      } else if (user_guess - answer < 20) {
+        msg1.textContent = "Your guess is high.";
+        msg2.textContent = "No. of guesses: " + no_of_guesses;
+        msg3.textContent = "Guessed numbers are: " + guessed_nums;
+      }
+    }
+    // if (user_guess < answer) {
+    //   msg1.textContent = "Your guess is too low.";
+    //   msg2.textContent = "No. of guesses: " + no_of_guesses;
+    //   msg3.textContent = "Guessed numbers are: " + guessed_nums;
+    // } else if (user_guess > answer) {
+    //   msg1.textContent = "Your guess is too high.";
+    //   msg2.textContent = "No. of guesses: " + no_of_guesses;
+    //   msg3.textContent = "Guessed numbers are: " + guessed_nums;}
+    else if (user_guess == answer) {
       msg1.textContent = "Yippie You Win!!🎉";
       msg2.textContent = "The number was: " + answer;
       msg3.textContent = "You guessed it in " + no_of_guesses + " guesses";
