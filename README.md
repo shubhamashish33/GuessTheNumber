@@ -1,5 +1,10 @@
 # GuessTheNumber
- Guess the Number with the help of the given hint. The hint will guide to your destination eaisly. You got several chances to guess the number.
+ Guess the Number with the help of the given hint. The hint will guide to your destination eaisly. You got 10 chances to guess the number or else you will loose the game.
+
+ Do try it out and share me the score on social media.
+ 
+ If you have any suggestions reach out to me with given social media link below.
+ 
 
  [Visit Here 🚀](https://shubhamashish33.github.io/GuessTheNumber/)
 
