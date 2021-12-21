@@ -25,4 +25,5 @@
 
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/imaashish_)
 
-**If you like this content don't forget to mark it as star. Do Follow me on Twiiter to know behind the process.** 
+**If you like this content don't forget to mark it as star. \
+Do Follow me on Twiiter to know behind the process.** 
