@@ -8,8 +8,8 @@
 
  [Visit Here 🚀](https://shubhamashish33.github.io/GuessTheNumber/)
 
-## Screenshot
-![image](https://user-images.githubusercontent.com/78084828/146647117-a6161f85-31dd-453e-8987-ab1f0681cb85.png)
+## Demo
+![yYbyNzAtyT](https://user-images.githubusercontent.com/78084828/146939243-50a0ad2b-2d23-4997-920b-0024ea886570.gif)
 
 
 ## Tech Used
